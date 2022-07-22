@@ -40,7 +40,7 @@ steps:
     SearchPattern: '**/bin/**/*.pdb'
     SymbolServerType: 'TeamServices'
     TreatNotIndexedAsWarning: true
-    IndexSources: false
+    IndexSources: true
     PublishSymbols: true
     SymbolsArtifactName: 'Symbols_$(BuildConfiguration)'
 
